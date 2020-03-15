@@ -29,3 +29,7 @@ body {
     border-radius: 50%;
     margin-left: 0px;
   }
+/*positioning the form*/
+  .form-group {
+      height: 60px;
+  }
