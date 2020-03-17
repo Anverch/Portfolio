@@ -1,33 +1,16 @@
-h2 {
-    margin-left: 130px;
-    color: white;
-    background-color:wheat;
-}
-h3 {
-    margin-left: 60px;
-}
-
 body {
-    background-color: wheat;
+    background-color: gray;
 }
 
-/* Content */
-.container {
-    padding: 40px;
-    margin-left: 80;
-    width: 700px;
-    height: 320px;
-    background-color: white;
+h2 {
+    color: white;
+    background-color: teal;
 }
-
 /* image size*/
 #bio-image {
     /* Box-model */
-    width: 250px;
+    width: 200px;
     height: 200px;
-    /* Positioning */
-    border-radius: 50%;
-    margin-left: 0px;
   }
 /*positioning the form*/
   .form-group {
