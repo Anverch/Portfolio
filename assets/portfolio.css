@@ -1,18 +1,5 @@
-/* Content */
-.container {
-    align-items: center;
-    padding-left: 60px;
-    width: 500px;
-    height: 400px;
-    background-color: white;
+.port-image {
+ height: 100px;
+ width: 100px; 
+ padding: 10px;  
 }
-/* image size*/
-#port-image {
-    /* Box-model */
-    width: 150px;
-    height: 100px;
-    /* Positioning */
-    padding: 5px;
-    border-radius: 50%;
-    margin-left: 20px;
-  }

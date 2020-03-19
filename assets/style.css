@@ -12,3 +12,8 @@ h2 {
     width: 200px;
     height: 200px;
   }
+
+.footer-bar {
+    height: 10px;
+    background: teal;
+}
