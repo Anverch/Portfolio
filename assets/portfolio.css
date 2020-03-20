@@ -1,5 +1,19 @@
 .port-image {
- height: 100px;
- width: 100px; 
- padding: 10px;  
+    height: 150px;
+    width: 200px;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.text-block {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    top: 70%;
+    background-color: teal;
+    color: white;
+}
+
+.padded {
+    padding: 10px;
 }
