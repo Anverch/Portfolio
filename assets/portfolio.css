@@ -1,19 +1,18 @@
-.port-image {
-    height: 150px;
-    width: 200px;
-    max-width: 200px;
-    max-height: 150px;
-}
-
-.text-block {
-    position: absolute;
-    text-align: center;
-    width: 200px;
-    top: 70%;
-    background-color: teal;
-    color: white;
-}
-
-.padded {
-    padding: 10px;
-}
+ .port-image {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .text-block {
+     position: relative;
+     text-align: center;
+     width: 100%;
+     bottom: 20%;
+     background-color: teal;
+     color: white;
+ }
+ 
+ .stretch {
+     width: 100%;
+     height: 15em;
+ }
