@@ -3,6 +3,15 @@
      height: 15em;
  }
  
+ .bg-teal {
+     color:white;
+    background-color: teal;
+ }
+
+ .bg-teal a {
+    color:white;
+ }
+
  .text-block {
      position: relative;
      text-align: center;
