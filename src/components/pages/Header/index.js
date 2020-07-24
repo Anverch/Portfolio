@@ -8,7 +8,7 @@ function Header() {
   return ( 
   <div className="navbar bg-light shadow-sm py-0">
     <div className="container px-0 d-flex flex-column flex-md-row align-items-center">
-        <h2 className="my-0 p-2 mr-md-auto font-weight-normal">Alex Saiyan</h2>
+        <h2 className="my-0 p-2 mr-md-auto font-weight-normal">Aleks Saiyan</h2>
         <nav className="nav nav-tabs">
           <Link to="/" className="p-2 text-dark" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
             About

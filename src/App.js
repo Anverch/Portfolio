@@ -5,8 +5,6 @@ import About from "./components/pages/About/Index";
 import Contact from "./components/pages/Contact/Index";
 import Portfolio from "./components/pages/Portfolio/Index";
 import Footer from "./components/pages/Footer/index";
-// import NavTabs from "./components/NavTabs";
-// import "./App.css";
 
 function App() {
   return (

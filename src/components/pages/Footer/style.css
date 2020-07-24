@@ -1,14 +1,8 @@
 .footer-bar {
-  background: teal;
+  border-top: 10px solid teal ;
   position: absolute;
-  bottom: 0;
+  bottom: auto;
   width: 100%;
   height: 4rem
 }
 
-.foot-line {
-  height: 3rem;
-  width: 100%; 
-  position: absolute;
-  bottom: 0;
-}

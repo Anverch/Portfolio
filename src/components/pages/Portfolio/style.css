@@ -1,0 +1,36 @@
+body {
+    background-color: gray;
+}
+
+.port-image {
+    width: 100%;
+    height: 15em;
+}
+
+.bg-teal {
+    color:white;
+   background-color: teal;
+}
+
+.bg-teal a {
+   color:white;
+}
+
+.text-block {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    bottom: 20%;
+    background-color: teal;
+    color: white;
+}
+
+.text-block a {
+    text-decoration: none;
+    color: white;
+}
+
+.stretch {
+    width: 100%;
+    height: 15em;
+}
