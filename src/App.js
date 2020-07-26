@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./components/pages/Header/index";
+import Header from "./components/Header/index";
 import About from "./components/pages/About/Index";
 import Contact from "./components/pages/Contact/Index";
 import Portfolio from "./components/pages/Portfolio/Index";
-import Footer from "./components/pages/Footer/index";
+import Footer from "./components/Footer/index";
 
 function App() {
   return (
