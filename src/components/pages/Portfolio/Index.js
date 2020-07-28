@@ -2,9 +2,23 @@ import React from "react";
 import ProjectCard from "../../ProjectCard";
 import projects from "../../../consts/projects.json";
 import "./style.css";
-// import Link from "../../Link";
+
 
 function Portfolio() {
+
+  //
+    const projectMapping = projects.map(project=>{
+      return (
+        <div className="col-md-6 p-2">
+            <ProjectCard 
+              image={project.image}
+              title={project.name}
+              links={project.links}
+            />
+        </div>
+        )
+    })
+
     return ( 
       <body className="d-flex flex-column h-100">
         <div className="container mt-5 pb-5">
@@ -15,17 +29,7 @@ function Portfolio() {
                         <h3 className="border-bottom pb-3">Portfolio</h3>
                     </div>
                     <div className="col-md-12">
-                        <div className="row">{projects.map(project=>{
-                          return (
-                            <div className="col-md-6 p-2">
-                                <ProjectCard 
-                                  image={project.image}
-                                  title={project.name}
-                                  links={project.links}
-                                />
-                            </div>
-                          )
-                        })}
+                        <div className="row">{projectMapping}
                        </div>
                     </div>
                 </div>

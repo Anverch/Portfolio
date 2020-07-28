@@ -12,6 +12,76 @@
         "label": "View Demo"
       }
     ]
+  },
+  {
+    "name": "Drinking@Home",
+    "image": "assets/images/DrinkingAtHome1.jpg",
+    "links": [
+      {
+        "url": "https://github.com/Anverch/Drinking-At-Home",
+        "label": "Github"
+      },
+      {
+        "url": "https://anverch.github.io/Drinking-At-Home/",
+        "label": "View Demo"
+      }
+    ]
+  },
+  {
+    "name": "Eat-Da-Burger",
+    "image": "assets/images/Burger.jpg",
+    "links": [
+      {
+        "url": "https://github.com/Anverch/Burger",
+        "label": "Github"
+      },
+      {
+        "url": "https://burger-ku.herokuapp.com",
+        "label": "View Demo"
+      }
+    ]
+  },
+  {
+    "name": "Note Taker",
+    "image": "assets/images/NoteTaker.jpg",
+    "links": [
+      {
+        "url": "https://github.com/Anverch/Note_Taker",
+        "label": "Github"
+      },
+      {
+        "url": "https://note-taker-ku.herokuapp.com",
+        "label": "View Demo"
+      }
+    ]
+  },
+  {
+    "name": "EPassword Generator",
+    "image": "assets/images/PwGenerator.jpg",
+    "links": [
+      {
+        "url": "https://github.com/Anverch/Password_Generator",
+        "label": "Github"
+      },
+      {
+        "url": "https://anverch.github.io/Password_Generator/",
+        "label": "View Demo"
+      }
+    ]
+  },
+  {
+    "name": "Template Engine",
+    "image": "assets/images/TemplateEngine.jpg",
+    "links": [
+      {
+        "url": "https://github.com/Anverch/Template-Engine---Employee-Summary",
+        "label": "Github"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=aD9Tny0jhvQ&feature=youtu.be",
+        "label": "View Demo"
+      }
+    ]
   }
   
 ]
