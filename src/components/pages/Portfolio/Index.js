@@ -15,14 +15,17 @@ function Portfolio() {
                         <h3 className="border-bottom pb-3">Portfolio</h3>
                     </div>
                     <div className="col-md-12">
-                        <div className="row">
+                        <div className="row">{projects.map(project=>{
+                          return (
                             <div className="col-md-6 p-2">
                                 <ProjectCard 
-                                  image={projects[0].image}
-                                  title={projects[0].name}
-                                  links={projects[0].links}
+                                  image={project.image}
+                                  title={project.name}
+                                  links={project.links}
                                 />
                             </div>
+                          )
+                        })}
                        </div>
                     </div>
                 </div>
