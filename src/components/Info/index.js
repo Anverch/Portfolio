@@ -1,4 +1,5 @@
 import React from "react";
+import Links from "../Link";
 
 function Info(props) {
     const {title, imageUrl, text, links} = props;
@@ -18,15 +19,10 @@ function Info(props) {
                     <div className="media-body p-2">
                         <p>{text}</p>
                     <p>
-                        {
-                            links.map((link, i)=> {
-                                return (<span>
-                                    <a target="_blank" href={link.url}>{link.label}</a> {
-                                        i !== links.length-1 && " | "
-                                    } 
-                                    </span>)
-                            })
-                        }
+                       <Links 
+                            links={links}
+                            useSeparator={true}
+                       />
                     </p>
                     </div>
                 </div>
