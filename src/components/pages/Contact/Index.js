@@ -3,6 +3,7 @@ import "./style.css";
 
 function Contact() {
     return ( 
+      <body>
         <div>
           <div className="container mt-5 pb-3">
             <div className="row justify-content-start">
@@ -35,6 +36,7 @@ function Contact() {
             </div>
           </div>
         </div>
+        </body>
    );
 }
 

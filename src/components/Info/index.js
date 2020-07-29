@@ -15,7 +15,7 @@ function Info(props) {
             <div className="col-md-12">
                 <div className="row">
                 <div className="media mt-3">
-                    <img id="bio-image" src={imageUrl} className="img-fluid p-2 rounded-circle" alt="" />
+                    <img id="bio-image" src={imageUrl} className="img-fluid p-2 rounded-circle media" alt="" />
                     <div className="media-body p-2">
                         <p>{text}</p>
                     <p>

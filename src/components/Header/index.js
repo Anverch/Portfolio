@@ -6,7 +6,7 @@ import "./style.css";
 function Header() {
   const location = useLocation();
   return ( 
-  <div className="navbar bg-light shadow-sm py-0">
+  <div className="navbar bg-light shadow-sm py-0 media">
     <div className="container px-0 d-flex flex-column flex-md-row align-items-center">
         <h2 className="my-0 p-2 mr-md-auto font-weight-normal">Aleks Saiyan</h2>
         <nav className="nav nav-tabs">
