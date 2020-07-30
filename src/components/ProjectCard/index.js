@@ -3,7 +3,7 @@ import Links from "../Link";
 
 export default function ProjectCard(props){
     const {image, title, links} = props;
-    console.log("this is links", links);
+    
     return (
         <div className="card h-100">
         <img className="card-img-top port-image" src={require(`../../${image}`)} alt="" />
