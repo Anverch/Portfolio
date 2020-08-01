@@ -42,6 +42,4 @@ This repository contains my personal bio page, which is linked to my Contact pag
 
   ## Questions
 
-  <img src="https://avatars.githubusercontent.com/Anverch" style="width: 40px; hight:40px; border-radius:100%;">
-
   If you have any questions about the repo, open an issue or contact anverch@gmail.com.

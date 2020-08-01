@@ -20,7 +20,8 @@ function Portfolio() {
     })
 
     return ( 
-      <body className="d-flex flex-column h-100">
+      <body>
+      <div className="d-flex flex-column h-100">
         <div className="container mt-5 pb-5">
           <div className="row justify-content-start">
             <div className="col-md-8 bg-light border p-lg-3">
@@ -35,6 +36,7 @@ function Portfolio() {
                 </div>
             </div>
         </div>
+    </div>
     </div>
     </body>
     );
